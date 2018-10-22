@@ -1,0 +1,8 @@
+prefix=/home/chp/ros/tutorial/pub_sub_ws/devel
+
+Name: publisher_pkg
+Description: Description of publisher_pkg
+Version: 0.1.0
+Cflags: -I/home/chp/ros/tutorial/pub_sub_ws/src/publisher_pkg/include
+Libs: -L/home/chp/ros/tutorial/pub_sub_ws/devel/lib -lpublisher_pkg
+Requires: roscpp std_msgs
