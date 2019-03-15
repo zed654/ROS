@@ -3,6 +3,8 @@
 
 		msg_pkg 패키지를 추가하는것이 핵심
 
+		target_link_libraries(${PROJECT_NAME}_node${catkin_LIBRARIES}) 도 꼭 써줘야함. 
+
 
 	package.xml
 
