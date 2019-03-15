@@ -1,2 +1,0 @@
-msg_pkg:publisher_pkg:subscriber_pkg
--DCATKIN_DEVEL_PREFIX=/home/chp/ros/tutorial/pub_sub_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chp/ros/tutorial/pub_sub_ws/install -G Unix Makefiles

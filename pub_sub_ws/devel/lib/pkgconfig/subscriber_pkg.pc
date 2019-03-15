@@ -1,8 +1,0 @@
-prefix=/home/chp/ros/tutorial/pub_sub_ws/devel
-
-Name: subscriber_pkg
-Description: Description of subscriber_pkg
-Version: 0.1.0
-Cflags: -I/home/chp/ros/tutorial/pub_sub_ws/src/subscriber_pkg/include
-Libs: -L/home/chp/ros/tutorial/pub_sub_ws/devel/lib -lsubscriber_pkg
-Requires: roscpp std_msgs

@@ -10,7 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
 #add_message_files(FILES msg_data.msg)
 
 catkin_package(
-  INCLUDE_DIRS include
+#  INCLUDE_DIRS include
   LIBRARIES subscriber_pkg
   CATKIN_DEPENDS roscpp std_msgs
   DEPENDS system_lib
