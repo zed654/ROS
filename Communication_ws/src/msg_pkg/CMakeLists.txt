@@ -21,12 +21,12 @@ find_package(catkin REQUIRED COMPONENTS
  )
 
 
-#catkin_package(
+catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES publisher_node_msg
 #  CATKIN_DEPENDS message_generation message_runtime std_msgs
 #  DEPENDS system_lib
-#)
+)
 
 include_directories(
 # include
