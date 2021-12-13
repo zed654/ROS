@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(nb_publisher)
+project(pub_ex)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -14,10 +14,9 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp)
 ament_target_dependencies(${PROJECT_NAME} rclcpp std_msgs)
 
-install(TARGETS ${PROJECT_NAME}
-  DESTINATION lib/${PROJECT_NAME})
-
+install(TARGETS ${PROJECT_NAME} DESTINATION lib/${PROJECT_NAME})
+install(DIRECTORY launch DESTINATION share/${PROJECT_NAME}) # To launch, this line shoudl be writen
 ament_package()

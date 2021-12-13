@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>nb_subscriber</name>
+  <name>sub_ex</name>
   <version>0.4.0</version>
   <description>NB ROS Message Subscriber</description>
   <maintainer email="404@fdsafsd.com">NB</maintainer>

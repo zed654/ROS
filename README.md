@@ -28,4 +28,6 @@
 
 	ros2_communication_ws
 
-		Ros2 Publish/Subscribe 통신 예제 코드.
+		Ros2 	1. Publish/Subscribe 통신 예제 코드.
+			2. Launch Example Code (Node based / Executeprocess based)
+			3. Param setting is not completed
