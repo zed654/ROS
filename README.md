@@ -12,7 +12,6 @@
 
 
 	1. pub_sub_ws
-
 		Publisher - MSG - Subscriber 통신 예제 코드.
 
 
@@ -20,15 +19,13 @@
 	ROS2 Tutorial
 ----------------------------
 
-	Version. 
+	1. Version. 
 		eloquent
 
-	Build.
-
+	2. Build Method.
 		colcon build
 		colcon build --cmake-arg -CMAKE_BUILD_TYPE=Release
 		colcon build --packages-select [project name]
 
-	ros2_communication_ws
-
-		Ros2 	Publisher - MSG - Subscriber 및 launch / parameter setup 예제 코드
+	3. ros2_communication_ws
+		Publisher - MSG - Subscriber 및 launch / parameter setup 예제 코드
