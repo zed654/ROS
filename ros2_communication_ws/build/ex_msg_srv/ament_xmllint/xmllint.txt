@@ -1,0 +1,10 @@
+-- run_test.py: invoking following command in '/home/neubility/ROS/ros2_communication_ws/src/ex_msg_srv_pkg':
+ - /opt/ros/eloquent/bin/ament_xmllint --xunit-file /home/neubility/ROS/ros2_communication_ws/build/ex_msg_srv/test_results/ex_msg_srv/xmllint.xunit.xml
+
+File 'package.xml' is valid
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/neubility/ROS/ros2_communication_ws/build/ex_msg_srv/test_results/ex_msg_srv/xmllint.xunit.xml'

@@ -1,0 +1,64 @@
+[0.026s] Invoking command in '/home/neubility/ROS/ros2_communication_ws/build/sub_ex': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/neubility/ROS/ros2_communication_ws/src/sub_ex_pkg -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/neubility/ROS/ros2_communication_ws/install/sub_ex
+[0.102s] -- The C compiler identification is GNU 7.5.0
+[0.173s] -- The CXX compiler identification is GNU 7.5.0
+[0.176s] -- Check for working C compiler: /usr/bin/cc
+[0.273s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.274s] -- Detecting C compiler ABI info
+[0.374s] -- Detecting C compiler ABI info - done
+[0.383s] -- Detecting C compile features
+[0.697s] -- Detecting C compile features - done
+[0.700s] -- Check for working CXX compiler: /usr/bin/c++
+[0.808s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.810s] -- Detecting CXX compiler ABI info
+[0.926s] -- Detecting CXX compiler ABI info - done
+[0.931s] -- Detecting CXX compile features
+[1.409s] -- Detecting CXX compile features - done
+[1.411s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[1.446s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.447s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.666s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.681s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.716s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.717s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.718s] -- Looking for pthread.h
+[1.809s] -- Looking for pthread.h - found
+[1.810s] -- Looking for pthread_create
+[1.885s] -- Looking for pthread_create - not found
+[1.885s] -- Looking for pthread_create in pthreads
+[1.941s] -- Looking for pthread_create in pthreads - not found
+[1.941s] -- Looking for pthread_create in pthread
+[2.004s] -- Looking for pthread_create in pthread - found
+[2.005s] -- Found Threads: TRUE  
+[2.034s] -- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+[2.113s] -- Configuring done
+[2.120s] -- Generating done
+[2.121s] -- Build files have been written to: /home/neubility/ROS/ros2_communication_ws/build/sub_ex
+[2.125s] Invoked command in '/home/neubility/ROS/ros2_communication_ws/build/sub_ex' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/neubility/ROS/ros2_communication_ws/src/sub_ex_pkg -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/neubility/ROS/ros2_communication_ws/install/sub_ex
+[2.131s] Invoking command in '/home/neubility/ROS/ros2_communication_ws/build/sub_ex': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/sub_ex -- -j16 -l16
+[2.172s] [35m[1mScanning dependencies of target sub_ex[0m
+[2.202s] [ 50%] [32mBuilding CXX object CMakeFiles/sub_ex.dir/main.cpp.o[0m
+[5.187s] [100%] [32m[1mLinking CXX executable sub_ex[0m
+[5.376s] [100%] Built target sub_ex
+[5.387s] Invoked command in '/home/neubility/ROS/ros2_communication_ws/build/sub_ex' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/sub_ex -- -j16 -l16
+[5.415s] Invoking command in '/home/neubility/ROS/ros2_communication_ws/build/sub_ex': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/sub_ex --target install -- -j16 -l16
+[5.476s] [100%] Built target sub_ex
+[5.499s] [36mInstall the project...[0m
+[5.508s] -- Install configuration: "Debug"
+[5.508s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/lib/sub_ex/sub_ex
+[5.509s] -- Set runtime path of "/home/neubility/ROS/ros2_communication_ws/install/sub_ex/lib/sub_ex/sub_ex" to ""
+[5.510s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/ament_index/resource_index/package_run_dependencies/sub_ex
+[5.510s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/ament_index/resource_index/parent_prefix_path/sub_ex
+[5.510s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/environment/ament_prefix_path.sh
+[5.510s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/environment/ament_prefix_path.dsv
+[5.510s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/environment/path.sh
+[5.511s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/environment/path.dsv
+[5.511s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/local_setup.bash
+[5.511s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/local_setup.sh
+[5.511s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/local_setup.zsh
+[5.511s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/local_setup.dsv
+[5.511s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/package.dsv
+[5.511s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/ament_index/resource_index/packages/sub_ex
+[5.511s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/cmake/sub_exConfig.cmake
+[5.511s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/cmake/sub_exConfig-version.cmake
+[5.512s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/package.xml
+[5.514s] Invoked command in '/home/neubility/ROS/ros2_communication_ws/build/sub_ex' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/sub_ex --target install -- -j16 -l16

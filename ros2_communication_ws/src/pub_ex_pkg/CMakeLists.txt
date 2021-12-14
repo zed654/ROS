@@ -13,10 +13,18 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(ex_msg_srv REQUIRED)
 
 add_executable(${PROJECT_NAME} src/main.cpp)
-ament_target_dependencies(${PROJECT_NAME} rclcpp std_msgs)
+ament_target_dependencies(${PROJECT_NAME} rclcpp std_msgs ex_msg_srv)
 
-install(TARGETS ${PROJECT_NAME} DESTINATION lib/${PROJECT_NAME})
-install(DIRECTORY launch DESTINATION share/${PROJECT_NAME}) # To launch, this line shoudl be writen
+install(TARGETS
+	${PROJECT_NAME}
+	DESTINATION
+	lib/${PROJECT_NAME})
+install(DIRECTORY
+	launch
+	DESTINATION
+	share/${PROJECT_NAME}) # To launch, this line shoudl be writen
+
 ament_package()

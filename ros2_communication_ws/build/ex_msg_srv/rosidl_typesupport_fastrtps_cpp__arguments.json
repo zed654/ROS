@@ -1,0 +1,21 @@
+{
+  "package_name": "ex_msg_srv",
+  "output_dir": "/home/neubility/ROS/ros2_communication_ws/build/ex_msg_srv/rosidl_typesupport_fastrtps_cpp/ex_msg_srv",
+  "template_dir": "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/neubility/ROS/ros2_communication_ws/build/ex_msg_srv/rosidl_adapter/ex_msg_srv:msg/Num.idl",
+    "/home/neubility/ROS/ros2_communication_ws/build/ex_msg_srv/rosidl_adapter/ex_msg_srv:srv/AddThreeInts.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/eloquent/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/neubility/ROS/ros2_communication_ws/build/ex_msg_srv/rosidl_adapter/ex_msg_srv/msg/Num.idl",
+    "/home/neubility/ROS/ros2_communication_ws/build/ex_msg_srv/rosidl_adapter/ex_msg_srv/srv/AddThreeInts.idl"
+  ]
+}

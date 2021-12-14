@@ -31,3 +31,7 @@
 		Ros2 	1. Publish/Subscribe 통신 예제 코드.
 			2. Launch Example Code (Node based / Executeprocess based)
 			3. Param setting is not completed
+			4. MSG Generation / SRV Generation (ex_msg_srv_pkg)
+
+				find_package(msg_name, REQUIRED)
+				ament_target_dependencies(msg name)
