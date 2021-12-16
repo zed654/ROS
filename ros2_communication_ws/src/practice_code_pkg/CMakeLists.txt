@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(pub_ex)
+project(practice_code_pkg)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -19,7 +19,7 @@ include_directories(
     include
 )
 
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp src/time_checker.cpp)
 ament_target_dependencies(${PROJECT_NAME} rclcpp std_msgs ex_msg_srv)
 
 install(TARGETS

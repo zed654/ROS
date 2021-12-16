@@ -6,6 +6,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 #include "ex_msg_srv/msg/num.hpp"
+#include "time_checker.h"
 
 using namespace std::chrono_literals;
 
@@ -27,16 +28,19 @@ public:
 private:
     void timer_callback()
     {
+	double tc_calc_time = tc.LoopTimeCalc();
+	std::cout << tc_calc_time << std::endl;
         ex_msg_srv::msg::Num message;
-        // auto message = std_msgs::msg::String();
+        // auto message = ex_msg_srv::msg::Num();
         this->get_parameter("param_1", param_string_);
         this->get_parameter("param_2", param_double_);
-        message.num = 3;
+        message.num = tc_calc_time;
         // message.data = "Hello, world! " + std::to_string(count_++);
         // RCLCPP_INFO(this->get_logger(), "Publishing: '%s', '%s' ", message.data.c_str(), param_string_);
         // std::cout << param_string_ << "\t\t" << param_double_ << std::endl;
         publisher_->publish(message);
     }
+    TimeChecker tc;
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<ex_msg_srv::msg::Num>::SharedPtr publisher_;
     std::string param_string_;

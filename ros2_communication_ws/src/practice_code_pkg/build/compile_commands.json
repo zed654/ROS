@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/neubility/ROS/ros2_communication_ws/src/pub_ex_pkg/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/opt/ros/eloquent/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/pub_ex.dir/src/main.cpp.o -c /home/neubility/ROS/ros2_communication_ws/src/pub_ex_pkg/src/main.cpp",
+  "file": "/home/neubility/ROS/ros2_communication_ws/src/pub_ex_pkg/src/main.cpp"
+}
+]

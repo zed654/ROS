@@ -1,4 +1,0 @@
-source;share/ex_msg_srv/local_setup.bash
-source;share/ex_msg_srv/local_setup.dsv
-source;share/ex_msg_srv/local_setup.sh
-source;share/ex_msg_srv/local_setup.zsh
