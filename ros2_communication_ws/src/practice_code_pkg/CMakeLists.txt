@@ -14,13 +14,14 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(ex_msg_srv REQUIRED)
+find_package(OpenCV REQUIRED)
 
 include_directories(
     include
 )
 
 add_executable(${PROJECT_NAME} src/main.cpp src/time_checker.cpp)
-ament_target_dependencies(${PROJECT_NAME} rclcpp std_msgs ex_msg_srv)
+ament_target_dependencies(${PROJECT_NAME} rclcpp std_msgs ex_msg_srv OpenCV)
 
 install(TARGETS
 	${PROJECT_NAME}

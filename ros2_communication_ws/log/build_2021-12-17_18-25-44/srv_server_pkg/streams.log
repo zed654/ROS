@@ -1,0 +1,18 @@
+[0.020s] Invoking command in '/home/neubility/ROS/ros2_communication_ws/build/srv_server_pkg': AMENT_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/opt/ros/eloquent LD_LIBRARY_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/srv_server_pkg -- -j16 -l16
+[0.059s] [35m[1mScanning dependencies of target srv_server_pkg[0m
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/srv_server_pkg.dir/src/main.cpp.o[0m
+[0.856s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/srv_server_pkg/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[0.856s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/srv_server_pkg/src/main.cpp:31:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ktc_calc_time[m[K’ was not declared in this scope
+[0.857s]          std::cout << [01;31m[Ktc_calc_time[m[K << std::endl;
+[0.857s]                       [01;31m[K^~~~~~~~~~~~[m[K
+[0.858s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/srv_server_pkg/src/main.cpp:31:22:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Klocaltime[m[K’
+[0.858s]          std::cout << [01;36m[Ktc_calc_time[m[K << std::endl;
+[0.858s]                       [01;36m[K^~~~~~~~~~~~[m[K
+[0.858s]                       [32m[Klocaltime[m[K
+[1.529s] make[2]: *** [CMakeFiles/srv_server_pkg.dir/src/main.cpp.o] Error 1
+[1.530s] CMakeFiles/srv_server_pkg.dir/build.make:62: recipe for target 'CMakeFiles/srv_server_pkg.dir/src/main.cpp.o' failed
+[1.530s] make[1]: *** [CMakeFiles/srv_server_pkg.dir/all] Error 2
+[1.530s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/srv_server_pkg.dir/all' failed
+[1.530s] make: *** [all] Error 2
+[1.530s] Makefile:140: recipe for target 'all' failed
+[1.532s] Invoked command in '/home/neubility/ROS/ros2_communication_ws/build/srv_server_pkg' returned '2': AMENT_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/opt/ros/eloquent LD_LIBRARY_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/srv_server_pkg -- -j16 -l16

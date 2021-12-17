@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target srv_server_pkg[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/srv_server_pkg.dir/src/main.cpp.o[0m
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/srv_server_pkg/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/srv_server_pkg/src/main.cpp:31:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ktc_calc_time[m[K’ was not declared in this scope
+         std::cout << [01;31m[Ktc_calc_time[m[K << std::endl;
+                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/srv_server_pkg/src/main.cpp:31:22:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Klocaltime[m[K’
+         std::cout << [01;36m[Ktc_calc_time[m[K << std::endl;
+                      [01;36m[K^~~~~~~~~~~~[m[K
+                      [32m[Klocaltime[m[K
+make[2]: *** [CMakeFiles/srv_server_pkg.dir/src/main.cpp.o] Error 1
+CMakeFiles/srv_server_pkg.dir/build.make:62: recipe for target 'CMakeFiles/srv_server_pkg.dir/src/main.cpp.o' failed
+make[1]: *** [CMakeFiles/srv_server_pkg.dir/all] Error 2
+CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/srv_server_pkg.dir/all' failed
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

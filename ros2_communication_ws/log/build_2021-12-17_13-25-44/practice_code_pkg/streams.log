@@ -1,0 +1,37 @@
+[0.013s] Invoking command in '/home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg': AMENT_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/opt/ros/eloquent LD_LIBRARY_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg -- -j16 -l16
+[0.054s] [35m[1mScanning dependencies of target practice_code_pkg[0m
+[0.077s] [ 33%] [32mBuilding CXX object CMakeFiles/practice_code_pkg.dir/src/main.cpp.o[0m
+[1.822s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:[m[K In member function ‘[01m[Kvoid Localization::get_lat()[m[K’:
+[1.822s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:70:35:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [[01;31m[K-fpermissive[m[K]
+[1.823s]      void get_lat() { return this->[01;31m[Klat[m[K; }
+[1.823s]                                    [01;31m[K^~~[m[K
+[1.823s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:[m[K In member function ‘[01m[Kvoid Localization::get_lon()[m[K’:
+[1.823s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:71:35:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [[01;31m[K-fpermissive[m[K]
+[1.823s]      void get_lon() { return this->[01;31m[Klon[m[K; }
+[1.823s]                                    [01;31m[K^~~[m[K
+[1.823s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:[m[K At global scope:
+[1.823s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:85:17:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmutex_lock[m[K’
+[1.823s]  pthread_mutex_t [01;31m[Kmutex_lock[m[K;
+[1.823s]                  [01;31m[K^~~~~~~~~~[m[K
+[1.823s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:[m[K In function ‘[01m[Kvoid* ThreadNB(void*)[m[K’:
+[1.823s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:89:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.824s]  [01;35m[K}[m[K
+[1.824s]  [01;35m[K^[m[K
+[1.824s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:86:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.824s]  void *ThreadNB(void *[01;35m[Kparam[m[K)
+[1.824s]                       [01;35m[K^~~~~[m[K
+[1.824s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.824s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:92:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_lock[m[K’ was not declared in this scope
+[1.824s]      pthread_mutex_init(&[01;31m[Kmutex_lock[m[K, NULL);
+[1.824s]                          [01;31m[K^~~~~~~~~~[m[K
+[1.824s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:92:25:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KCvSeqBlock[m[K’
+[1.824s]      pthread_mutex_init(&[01;36m[Kmutex_lock[m[K, NULL);
+[1.825s]                          [01;36m[K^~~~~~~~~~[m[K
+[1.825s]                          [32m[KCvSeqBlock[m[K
+[2.484s] make[2]: *** [CMakeFiles/practice_code_pkg.dir/src/main.cpp.o] Error 1
+[2.484s] CMakeFiles/practice_code_pkg.dir/build.make:62: recipe for target 'CMakeFiles/practice_code_pkg.dir/src/main.cpp.o' failed
+[2.484s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/practice_code_pkg.dir/all' failed
+[2.484s] make[1]: *** [CMakeFiles/practice_code_pkg.dir/all] Error 2
+[2.485s] Makefile:140: recipe for target 'all' failed
+[2.485s] make: *** [all] Error 2
+[2.486s] Invoked command in '/home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg' returned '2': AMENT_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/opt/ros/eloquent LD_LIBRARY_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg -- -j16 -l16

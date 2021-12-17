@@ -1,0 +1,7 @@
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/srv_client_pkg/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/add_three_ints.hpp: No such file or directory
+ #include [01;31m[K"tutorial_interfaces/srv/add_three_ints.hpp"[m[K        // CHANGE
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/srv_client_pkg.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/srv_client_pkg.dir/all] Error 2
+make: *** [all] Error 2

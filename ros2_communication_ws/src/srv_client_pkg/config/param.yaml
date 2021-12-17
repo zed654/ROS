@@ -1,0 +1,6 @@
+pub_ex_param:
+  ros__parameters:
+    test_a: 255
+    test_b: 86
+    test_c: 150
+    test-d: false

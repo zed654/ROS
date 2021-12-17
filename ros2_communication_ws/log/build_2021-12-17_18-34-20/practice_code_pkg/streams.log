@@ -1,0 +1,12 @@
+[0.023s] Invoking command in '/home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg': CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/home/neubility/ROS/ros2_communication_ws/install/srv_client_pkg:/home/neubility/ROS/ros2_communication_ws/install/sub_ex:/home/neubility/ROS/ros2_communication_ws/install/srv_server_pkg:/home/neubility/ROS/ros2_communication_ws/install/pub_ex:/home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg -- -j16 -l16
+[0.060s] [35m[1mScanning dependencies of target practice_code_pkg[0m
+[0.082s] [ 33%] [32mBuilding CXX object CMakeFiles/practice_code_pkg.dir/src/main.cpp.o[0m
+[1.583s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:[m[K In function ‘[01m[Kvoid* ThreadNB(void*)[m[K’:
+[1.583s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:91:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.583s]  [01;35m[K}[m[K
+[1.584s]  [01;35m[K^[m[K
+[1.584s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:88:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.584s]  void *ThreadNB(void *[01;35m[Kparam[m[K)
+[1.584s]                       [01;35m[K^~~~~[m[K
+[3.265s] [ 66%] [32m[1mLinking CXX executable practice_code_pkg[0m
+[3.657s] [100%] Built target practice_code_pkg

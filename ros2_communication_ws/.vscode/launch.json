@@ -33,13 +33,13 @@
       "id": "package",
       "type": "promptString",
       "description": "package name",
-      "default": "topic_service_action_rclcpp_example(package_name)"
+      "default": "practice_code_pkg"
     },
     {
       "id": "node",
       "type": "promptString",
       "description": "node name",
-      "default": "argument(node_name)"
+      "default": "practice_code_pkg"
     }
   ]
 }

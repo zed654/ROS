@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target practice_code_pkg[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/practice_code_pkg.dir/src/main.cpp.o[0m
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:[m[K In function ‘[01m[Kvoid* ThreadNB(void*)[m[K’:
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:91:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:88:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void *ThreadNB(void *[01;35m[Kparam[m[K)
+                      [01;35m[K^~~~~[m[K
+[ 66%] [32m[1mLinking CXX executable practice_code_pkg[0m
+[100%] Built target practice_code_pkg

@@ -1,0 +1,14 @@
+[0.025s] Invoking command in '/home/neubility/ROS/ros2_communication_ws/build/srv_client_pkg': CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/home/neubility/ROS/ros2_communication_ws/install/srv_client_pkg:/home/neubility/ROS/ros2_communication_ws/install/sub_ex:/home/neubility/ROS/ros2_communication_ws/install/srv_server_pkg:/home/neubility/ROS/ros2_communication_ws/install/pub_ex:/home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/srv_client_pkg -- -j16 -l16
+[0.060s] [35m[1mScanning dependencies of target srv_client_pkg[0m
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/srv_client_pkg.dir/src/main.cpp.o[0m
+[0.138s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/srv_client_pkg/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/add_three_ints.hpp: No such file or directory
+[0.138s]  #include [01;31m[K"tutorial_interfaces/srv/add_three_ints.hpp"[m[K        // CHANGE
+[0.139s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.139s] compilation terminated.
+[0.142s] make[2]: *** [CMakeFiles/srv_client_pkg.dir/src/main.cpp.o] Error 1
+[0.142s] CMakeFiles/srv_client_pkg.dir/build.make:62: recipe for target 'CMakeFiles/srv_client_pkg.dir/src/main.cpp.o' failed
+[0.143s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/srv_client_pkg.dir/all' failed
+[0.143s] make[1]: *** [CMakeFiles/srv_client_pkg.dir/all] Error 2
+[0.143s] make: *** [all] Error 2
+[0.143s] Makefile:140: recipe for target 'all' failed
+[0.145s] Invoked command in '/home/neubility/ROS/ros2_communication_ws/build/srv_client_pkg' returned '2': CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/home/neubility/ROS/ros2_communication_ws/install/srv_client_pkg:/home/neubility/ROS/ros2_communication_ws/install/sub_ex:/home/neubility/ROS/ros2_communication_ws/install/srv_server_pkg:/home/neubility/ROS/ros2_communication_ws/install/pub_ex:/home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/srv_client_pkg -- -j16 -l16

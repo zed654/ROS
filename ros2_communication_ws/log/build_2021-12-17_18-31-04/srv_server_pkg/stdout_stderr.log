@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target srv_server_pkg[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/srv_server_pkg.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable srv_server_pkg[0m
+[100%] Built target srv_server_pkg
+[100%] Built target srv_server_pkg
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/neubility/ROS/ros2_communication_ws/install/srv_server_pkg/lib/srv_server_pkg/srv_server_pkg
+-- Set runtime path of "/home/neubility/ROS/ros2_communication_ws/install/srv_server_pkg/lib/srv_server_pkg/srv_server_pkg" to ""
+CMake Error at cmake_install.cmake:61 (file):
+  file INSTALL cannot find
+  "/home/neubility/ROS/ros2_communication_ws/src/srv_server_pkg/launch".
+
+
+make: *** [install] Error 1
+Makefile:73: recipe for target 'install' failed

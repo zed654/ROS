@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target srv_client_pkg[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/srv_client_pkg.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable srv_client_pkg[0m
+[100%] Built target srv_client_pkg

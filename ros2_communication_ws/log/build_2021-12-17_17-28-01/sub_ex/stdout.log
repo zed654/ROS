@@ -1,0 +1,30 @@
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/neubility/ROS/ros2_communication_ws/build/sub_ex
+[100%] Built target sub_ex
+[100%] Built target sub_ex
+[36mInstall the project...[0m
+-- Install configuration: "Debug"
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/lib/sub_ex/sub_ex
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/ament_index/resource_index/package_run_dependencies/sub_ex
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/ament_index/resource_index/parent_prefix_path/sub_ex
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/environment/ament_prefix_path.sh
+-- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/environment/path.sh
+-- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/environment/path.dsv
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/local_setup.bash
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/local_setup.sh
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/local_setup.zsh
+-- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/local_setup.dsv
+-- Installing: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/package.dsv
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/ament_index/resource_index/packages/sub_ex
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/cmake/sub_exConfig.cmake
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/cmake/sub_exConfig-version.cmake
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/package.xml

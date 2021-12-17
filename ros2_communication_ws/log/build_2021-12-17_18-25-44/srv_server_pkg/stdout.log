@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target srv_server_pkg[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/srv_server_pkg.dir/src/main.cpp.o[0m
+CMakeFiles/srv_server_pkg.dir/build.make:62: recipe for target 'CMakeFiles/srv_server_pkg.dir/src/main.cpp.o' failed
+CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/srv_server_pkg.dir/all' failed
+Makefile:140: recipe for target 'all' failed

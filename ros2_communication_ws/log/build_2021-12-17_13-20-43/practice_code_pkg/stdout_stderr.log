@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target practice_code_pkg[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/practice_code_pkg.dir/src/main.cpp.o[0m
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:[m[K In function ‘[01m[Kvoid* ThreadNB(void*)[m[K’:
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:71:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:68:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void *ThreadNB(void *[01;35m[Kparam[m[K)
+                      [01;35m[K^~~~~[m[K
+[ 66%] [32m[1mLinking CXX executable practice_code_pkg[0m
+[100%] Built target practice_code_pkg
+[100%] Built target practice_code_pkg
+[36mInstall the project...[0m
+-- Install configuration: "Debug"
+-- Installing: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/lib/practice_code_pkg/practice_code_pkg
+-- Set runtime path of "/home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/lib/practice_code_pkg/practice_code_pkg" to ""
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/launch
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/launch/launch_executeprocess_ex.launch.py
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/launch/launch_node_ex_method_2.launch.py
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/launch/launch_node_ex_method_1.launch.py
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/ament_index/resource_index/package_run_dependencies/practice_code_pkg
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/ament_index/resource_index/parent_prefix_path/practice_code_pkg
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/environment/path.sh
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/environment/path.dsv
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/local_setup.bash
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/local_setup.sh
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/local_setup.zsh
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/local_setup.dsv
+-- Installing: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/package.dsv
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/ament_index/resource_index/packages/practice_code_pkg
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/cmake/practice_code_pkgConfig.cmake
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/cmake/practice_code_pkgConfig-version.cmake
+-- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/package.xml

@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+-- Found ex_msg_srv: 0.0.0 (/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/share/ex_msg_srv/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/neubility/ROS/ros2_communication_ws/build/srv_server_pkg
+[35m[1mScanning dependencies of target srv_server_pkg[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/srv_server_pkg.dir/src/main.cpp.o[0m
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/srv_server_pkg/src/main.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[KTimeChecker[m[K’ does not name a type; did you mean ‘[01m[Ktimespec_get[m[K’?
+     [01;31m[KTimeChecker[m[K tc;
+     [01;31m[K^~~~~~~~~~~[m[K
+     [32m[Ktimespec_get[m[K
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/srv_server_pkg/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/srv_server_pkg/src/main.cpp:31:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ktc[m[K’ was not declared in this scope
+         double tc_calc_time = [01;31m[Ktc[m[K.LoopTimeCalc();
+                               [01;31m[K^~[m[K
+[01m[K/home/neubility/ROS/ros2_communication_ws/src/srv_server_pkg/src/main.cpp:31:31:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktm[m[K’
+         double tc_calc_time = [01;36m[Ktc[m[K.LoopTimeCalc();
+                               [01;36m[K^~[m[K
+                               [32m[Ktm[m[K
+CMakeFiles/srv_server_pkg.dir/build.make:62: recipe for target 'CMakeFiles/srv_server_pkg.dir/src/main.cpp.o' failed
+make[2]: *** [CMakeFiles/srv_server_pkg.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/srv_server_pkg.dir/all] Error 2
+CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/srv_server_pkg.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
