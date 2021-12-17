@@ -1,0 +1,28 @@
+[0.026s] Invoking command in '/home/neubility/ROS/ros2_communication_ws/build/pub_ex': CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/home/neubility/ROS/ros2_communication_ws/install/srv_client_pkg:/home/neubility/ROS/ros2_communication_ws/install/sub_ex:/home/neubility/ROS/ros2_communication_ws/install/srv_server_pkg:/home/neubility/ROS/ros2_communication_ws/install/pub_ex:/home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/pub_ex -- -j16 -l16
+[0.076s] [100%] Built target pub_ex
+[0.087s] Invoked command in '/home/neubility/ROS/ros2_communication_ws/build/pub_ex' returned '0': CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/home/neubility/ROS/ros2_communication_ws/install/srv_client_pkg:/home/neubility/ROS/ros2_communication_ws/install/sub_ex:/home/neubility/ROS/ros2_communication_ws/install/srv_server_pkg:/home/neubility/ROS/ros2_communication_ws/install/pub_ex:/home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/pub_ex -- -j16 -l16
+[0.110s] Invoking command in '/home/neubility/ROS/ros2_communication_ws/build/pub_ex': CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/home/neubility/ROS/ros2_communication_ws/install/srv_client_pkg:/home/neubility/ROS/ros2_communication_ws/install/sub_ex:/home/neubility/ROS/ros2_communication_ws/install/srv_server_pkg:/home/neubility/ROS/ros2_communication_ws/install/pub_ex:/home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/pub_ex --target install -- -j16 -l16
+[0.166s] [100%] Built target pub_ex
+[0.182s] [36mInstall the project...[0m
+[0.191s] -- Install configuration: "Debug"
+[0.191s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/lib/pub_ex/pub_ex
+[0.192s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/launch
+[0.192s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/launch/launch_executeprocess_ex.launch.py
+[0.192s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/launch/launch_node_ex_method_2.launch.py
+[0.192s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/launch/launch_node_ex_method_1.launch.py
+[0.192s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/ament_index/resource_index/package_run_dependencies/pub_ex
+[0.193s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/ament_index/resource_index/parent_prefix_path/pub_ex
+[0.193s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/environment/ament_prefix_path.sh
+[0.193s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/environment/ament_prefix_path.dsv
+[0.193s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/environment/path.sh
+[0.194s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/environment/path.dsv
+[0.194s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/local_setup.bash
+[0.194s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/local_setup.sh
+[0.195s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/local_setup.zsh
+[0.195s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/local_setup.dsv
+[0.195s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/package.dsv
+[0.195s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/ament_index/resource_index/packages/pub_ex
+[0.195s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/cmake/pub_exConfig.cmake
+[0.195s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/cmake/pub_exConfig-version.cmake
+[0.196s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/pub_ex/share/pub_ex/package.xml
+[0.197s] Invoked command in '/home/neubility/ROS/ros2_communication_ws/build/pub_ex' returned '0': CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/home/neubility/ROS/ros2_communication_ws/install/srv_client_pkg:/home/neubility/ROS/ros2_communication_ws/install/sub_ex:/home/neubility/ROS/ros2_communication_ws/install/srv_server_pkg:/home/neubility/ROS/ros2_communication_ws/install/pub_ex:/home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/pub_ex --target install -- -j16 -l16

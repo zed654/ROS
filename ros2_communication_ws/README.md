@@ -29,6 +29,8 @@
 
 	< ROS2 Service >
 
+	Client 에서 Server 로 AddThreeInts.srv 에 기술된 request 에 대한 변수를 보내주면, response 에 대한 변수를 Client 로 던져준다. 말 그대로 두 패키지 사이의 Handshakes 를 위함.
+
 	src/srv_server_pkg
 		ROS2 service server 작성
 

@@ -24,11 +24,18 @@ public:
     {
         this->declare_parameter<std::string>("param_1", "world");                                    // ROS Paramters 를 사용하기 위해서 필수적으로 정의 필요.
         this->declare_parameter<double>("param_2", 1.3);                                             // ROS Paramters 를 사용하기 위해서 필수적으로 정의 필요.
+        service_server_ = this->create_service<ex_msg_srv::srv::AddThreeInts>("service_server_name", std::bind(&MinimalPublisher::srv_server_callback, this, std::placeholders::_1, std::placeholders::_2));
         publisher_ = this->create_publisher<ex_msg_srv::msg::Num>("/ping_pong_topic", 1);            // ROS Topic 정의
         timer_ = this->create_wall_timer(500ms, std::bind(&MinimalPublisher::timer_callback, this)); // Thread 를 생성하여 Callback 방식으로 함수 호출
     }
 
 private:
+    void srv_server_callback(const std::shared_ptr<ex_msg_srv::srv::AddThreeInts::Request> request,
+                                std::shared_ptr<ex_msg_srv::srv::AddThreeInts::Response> response)
+    {
+        response->sum = request->a + request->b + request->c;
+        std::cout << "Someone call Me! I will calc the received data ! : " << response->sum << ", " << request->a << ", " << request->b << ", " << request->c << std::endl;
+    }
     void timer_callback()
     {
         double tc_calc_time = tc.LoopTimeCalc();
@@ -44,6 +51,7 @@ private:
         publisher_->publish(message);
     }
     TimeChecker tc;
+    rclcpp::Service<ex_msg_srv::srv::AddThreeInts>::SharedPtr service_server_;
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<ex_msg_srv::msg::Num>::SharedPtr publisher_;
     std::string param_string_;

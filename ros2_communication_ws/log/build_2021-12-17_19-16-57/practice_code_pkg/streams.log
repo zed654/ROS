@@ -1,0 +1,39 @@
+[0.026s] Invoking command in '/home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg': CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/home/neubility/ROS/ros2_communication_ws/install/srv_client_pkg:/home/neubility/ROS/ros2_communication_ws/install/sub_ex:/home/neubility/ROS/ros2_communication_ws/install/srv_server_pkg:/home/neubility/ROS/ros2_communication_ws/install/pub_ex:/home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg -- -j16 -l16
+[0.067s] [35m[1mScanning dependencies of target practice_code_pkg[0m
+[0.088s] [ 33%] [32mBuilding CXX object CMakeFiles/practice_code_pkg.dir/src/main.cpp.o[0m
+[1.561s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:[m[K In function ‘[01m[Kvoid* ThreadNB(void*)[m[K’:
+[1.561s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:99:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.561s]  [01;35m[K}[m[K
+[1.561s]  [01;35m[K^[m[K
+[1.561s] [01m[K/home/neubility/ROS/ros2_communication_ws/src/practice_code_pkg/src/main.cpp:96:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.561s]  void *ThreadNB(void *[01;35m[Kparam[m[K)
+[1.561s]                       [01;35m[K^~~~~[m[K
+[3.439s] [ 66%] [32m[1mLinking CXX executable practice_code_pkg[0m
+[3.853s] [100%] Built target practice_code_pkg
+[3.863s] Invoked command in '/home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg' returned '0': CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/home/neubility/ROS/ros2_communication_ws/install/srv_client_pkg:/home/neubility/ROS/ros2_communication_ws/install/sub_ex:/home/neubility/ROS/ros2_communication_ws/install/srv_server_pkg:/home/neubility/ROS/ros2_communication_ws/install/pub_ex:/home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg -- -j16 -l16
+[3.903s] Invoking command in '/home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg': CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/home/neubility/ROS/ros2_communication_ws/install/srv_client_pkg:/home/neubility/ROS/ros2_communication_ws/install/sub_ex:/home/neubility/ROS/ros2_communication_ws/install/srv_server_pkg:/home/neubility/ROS/ros2_communication_ws/install/pub_ex:/home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg --target install -- -j16 -l16
+[3.982s] [100%] Built target practice_code_pkg
+[3.999s] [36mInstall the project...[0m
+[4.006s] -- Install configuration: "Debug"
+[4.006s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/lib/practice_code_pkg/practice_code_pkg
+[4.009s] -- Set runtime path of "/home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/lib/practice_code_pkg/practice_code_pkg" to ""
+[4.009s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/launch
+[4.009s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/launch/launch_executeprocess_ex.launch.py
+[4.009s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/launch/launch_node_ex_method_2.launch.py
+[4.009s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/launch/launch_node_ex_method_1.launch.py
+[4.009s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/ament_index/resource_index/package_run_dependencies/practice_code_pkg
+[4.009s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/ament_index/resource_index/parent_prefix_path/practice_code_pkg
+[4.009s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/environment/ament_prefix_path.sh
+[4.009s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/environment/ament_prefix_path.dsv
+[4.010s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/environment/path.sh
+[4.010s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/environment/path.dsv
+[4.010s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/local_setup.bash
+[4.010s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/local_setup.sh
+[4.010s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/local_setup.zsh
+[4.010s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/local_setup.dsv
+[4.010s] -- Installing: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/package.dsv
+[4.010s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/ament_index/resource_index/packages/practice_code_pkg
+[4.010s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/cmake/practice_code_pkgConfig.cmake
+[4.010s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/cmake/practice_code_pkgConfig-version.cmake
+[4.010s] -- Up-to-date: /home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg/share/practice_code_pkg/package.xml
+[4.013s] Invoked command in '/home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg' returned '0': CMAKE_PREFIX_PATH=/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv:/home/neubility/ROS/ros2_communication_ws/install/srv_client_pkg:/home/neubility/ROS/ros2_communication_ws/install/sub_ex:/home/neubility/ROS/ros2_communication_ws/install/srv_server_pkg:/home/neubility/ROS/ros2_communication_ws/install/pub_ex:/home/neubility/ROS/ros2_communication_ws/install/practice_code_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/neubility/ROS/ros2_communication_ws/build/practice_code_pkg --target install -- -j16 -l16

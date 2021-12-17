@@ -3,6 +3,14 @@
 
 #include <memory>
 
+/*
+AddThreeInts.srv
+   int64 a
+   int64 b
+   int64 c
+   ---
+   int64 sum
+*/
 void add(const std::shared_ptr<ex_msg_srv::srv::AddThreeInts::Request> request,
          std::shared_ptr<ex_msg_srv::srv::AddThreeInts::Response> response)
 {
