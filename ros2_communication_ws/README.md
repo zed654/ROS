@@ -12,6 +12,7 @@
 	< ROS2 Pub/Sub >
 
 	src/pub_ex_pkg
+		ROS2 CMakeLists.txt 작성 방법에 대한 기준 파일 포함 (src/pub_ex_pkg/CMakeLists.txt)
 		ROS2 Publisher 작성
 		ROS2 ex_msg_srv_pkg 의 msg 수신
 		ROS2 Parameter C-Code Level 작성
