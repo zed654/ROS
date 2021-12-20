@@ -16,7 +16,7 @@ class MinimalPublisher : public rclcpp::Node
 {
 public:
     MinimalPublisher()
-        : Node("minimal_publisher_node"), count_(0)
+        : Node("minimal_publisher_node"), alive_count_(0)
     {
         // this->declare_parameter<std::string>("param_1", "Hello World");                                        // ROS Paramters 를 사용하기 위해서 필수적으로 정의 필요.
         this->declare_parameter("param_1", rclcpp::ParameterValue(std::string("Hello World")));   // ROS Paramters 를 사용하기 위해서 필수적으로 정의 필요.
@@ -33,7 +33,8 @@ private:
         // auto message = std_msgs::msg::String();
         this->get_parameter("param_1", param_string_);
         this->get_parameter("param_2", param_double_);
-        message.num = 3;
+        message.num = (alive_count_++)%255;
+        std::cout << "[Pub Callback] : (param_1, param_2) -> (" << param_string_ << ", " << param_double_ << "), Topic : " << message.num << std::endl;
         // message.data = "Hello, world! " + std::to_string(count_++);
         // RCLCPP_INFO(this->get_logger(), "Publishing: '%s', '%s' ", message.data.c_str(), param_string_);
         // std::cout << param_string_ << "\t\t" << param_double_ << std::endl;
@@ -43,7 +44,7 @@ private:
     rclcpp::Publisher<ex_msg_srv::msg::Num>::SharedPtr publisher_;
     std::string param_string_;
     double param_double_;
-    size_t count_;
+    size_t alive_count_;
 };
 
 int main(int argc, char *argv[])

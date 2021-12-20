@@ -7,7 +7,7 @@ def generate_launch_description():
             package="pub_ex",			# ROS Pkg name
             node_executable="pub_ex",		# ROS exe name
             node_name="node_name_1",		# main Node Name
-            node_namespace="namespace_1",	# Sub Node Name. If you wanna change param, you should write like that 'ros2 param set /namespace_1/node_name_1 param_1 ddbdds'
+            node_namespace="namespace_1",	# Sub Node Name. If you wanna change param, you should write like that 'ros2 param set /namespace_1/node_name_1 param_1'
             
 	   # To print values on terminal, you should write below two lines,'output="screen", emulate_tty=True'
 	    output="screen",	

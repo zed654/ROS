@@ -1,6 +1,0 @@
-CMake Error at cmake_install.cmake:61 (file):
-  file INSTALL cannot find
-  "/home/neubility/ROS/ros2_communication_ws/src/srv_server_pkg/launch".
-
-
-make: *** [install] Error 1

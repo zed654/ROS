@@ -1,4 +1,5 @@
 /home/neubility/ROS/ros2_communication_ws/install/sub_ex/lib/sub_ex/sub_ex
+/home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/launch/sub_ex.launch.py
 /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/ament_index/resource_index/package_run_dependencies/sub_ex
 /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/ament_index/resource_index/parent_prefix_path/sub_ex
 /home/neubility/ROS/ros2_communication_ws/install/sub_ex/share/sub_ex/environment/ament_prefix_path.sh

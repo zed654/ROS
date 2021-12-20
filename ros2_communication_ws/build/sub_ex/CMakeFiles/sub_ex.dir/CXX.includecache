@@ -6,6 +6,38 @@
 
 #IncludeRegexTransform: 
 
+/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/include/ex_msg_srv/msg/num.hpp
+ex_msg_srv/msg/num__struct.hpp
+/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/include/ex_msg_srv/msg/ex_msg_srv/msg/num__struct.hpp
+ex_msg_srv/msg/num__traits.hpp
+/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/include/ex_msg_srv/msg/ex_msg_srv/msg/num__traits.hpp
+
+/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/include/ex_msg_srv/msg/num__struct.hpp
+rosidl_generator_cpp/bounded_vector.hpp
+-
+rosidl_generator_cpp/message_initialization.hpp
+-
+algorithm
+-
+array
+-
+memory
+-
+string
+-
+vector
+-
+
+/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/include/ex_msg_srv/msg/num__traits.hpp
+ex_msg_srv/msg/num__struct.hpp
+/home/neubility/ROS/ros2_communication_ws/install/ex_msg_srv/include/ex_msg_srv/msg/ex_msg_srv/msg/num__struct.hpp
+rosidl_generator_cpp/traits.hpp
+-
+stdint.h
+-
+type_traits
+-
+
 /home/neubility/ROS/ros2_communication_ws/src/sub_ex_pkg/main.cpp
 memory
 -
@@ -13,6 +45,8 @@ rclcpp/rclcpp.hpp
 /home/neubility/ROS/ros2_communication_ws/src/sub_ex_pkg/rclcpp/rclcpp.hpp
 std_msgs/msg/string.hpp
 /home/neubility/ROS/ros2_communication_ws/src/sub_ex_pkg/std_msgs/msg/string.hpp
+ex_msg_srv/msg/num.hpp
+/home/neubility/ROS/ros2_communication_ws/src/sub_ex_pkg/ex_msg_srv/msg/num.hpp
 
 /opt/ros/eloquent/include/builtin_interfaces/msg/duration.hpp
 builtin_interfaces/msg/duration__struct.hpp
