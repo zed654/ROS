@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "*.repos": "yaml",
+    "*.world": "xml",
+    "*.xacro": "xml",
+    "array": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "functional": "cpp",
+    "memory": "cpp"
+  }
+}
