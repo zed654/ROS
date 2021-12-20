@@ -18,8 +18,10 @@ public:
     MinimalPublisher()
         : Node("minimal_publisher_node"), count_(0)
     {
-        this->declare_parameter<std::string>("param_1", "world");                                       // ROS Paramters 를 사용하기 위해서 필수적으로 정의 필요.
-        this->declare_parameter<double>("param_2", 1.3);                                                // ROS Paramters 를 사용하기 위해서 필수적으로 정의 필요.
+        // this->declare_parameter<std::string>("param_1", "Hello World");                                        // ROS Paramters 를 사용하기 위해서 필수적으로 정의 필요.
+        this->declare_parameter("param_1", rclcpp::ParameterValue(std::string("Hello World")));   // ROS Paramters 를 사용하기 위해서 필수적으로 정의 필요.
+        this->declare_parameter<double>("param_2", 1.3);                                                    // ROS Paramters 를 사용하기 위해서 필수적으로 정의 필요.
+
         publisher_ = this->create_publisher<ex_msg_srv::msg::Num>("/ping_pong_topic", 1);              // ROS Topic 정의
         timer_ = this->create_wall_timer(500ms, std::bind(&MinimalPublisher::timer_callback, this));    // Thread 를 생성하여 Callback 방식으로 함수 호출
     }
